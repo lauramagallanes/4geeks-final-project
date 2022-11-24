@@ -20,7 +20,7 @@ import {
   BsFillHeartFill,
   BsHeart,
   BsFillBrushFill,
-  BsFillShareFill
+  BsFillShareFill,
 } from "react-icons/bs";
 // import { AiFillEdit } from "react-icons/ai";
 import { ImgCarousel } from "../component/imgCarousel.jsx";
@@ -182,7 +182,7 @@ export const LandingPage = () => {
                       <li>
                         <FacebookShareButton
                           url={
-                            "https://casa-arte.herokuapp.com/product-detail/" +
+                            "https://casaarte.herokuapp.com/product-detail/" +
                             item.id
                           }
                         >
@@ -191,7 +191,7 @@ export const LandingPage = () => {
                         <TwitterShareButton
                           className="m-3"
                           url={
-                            "https://casa-arte.herokuapp.com/product-detail/" +
+                            "https://casaarte.herokuapp.com/product-detail/" +
                             item.id
                           }
                         >
@@ -199,7 +199,7 @@ export const LandingPage = () => {
                         </TwitterShareButton>
                         <WhatsappShareButton
                           url={
-                            "https://casa-arte.herokuapp.com/product-detail/" +
+                            "https://casaarte.herokuapp.com/product-detail/" +
                             item.id
                           }
                         >
@@ -208,7 +208,7 @@ export const LandingPage = () => {
                         <LinkedinShareButton
                           className="m-3"
                           url={
-                            "https://casa-arte.herokuapp.com/product-detail/" +
+                            "https://casaarte.herokuapp.com/product-detail/" +
                             item.id
                           }
                         >
@@ -216,7 +216,7 @@ export const LandingPage = () => {
                         </LinkedinShareButton>
                         <EmailShareButton
                           url={
-                            "https://casa-arte.herokuapp.com/product-detail/" +
+                            "https://casaarte.herokuapp.com/product-detail/" +
                             item.id
                           }
                         >
@@ -235,7 +235,7 @@ export const LandingPage = () => {
                     }}
                   >
                     {store.favoriteItem?.includes(item.id) ? (
-                    <BsFillHeartFill />
+                      <BsFillHeartFill />
                     ) : (
                       <BsHeart />
                     )}
