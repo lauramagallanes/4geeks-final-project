@@ -36,7 +36,7 @@
 - profile.jsx
 - signup.jsx
 
-### Made by 
+### Created by 
 - [Daniel](https://www.linkedin.com/in/daniel-martinez-779a1224a/).
 - [Herman](https://www.linkedin.com/in/herman-gonzalez-61b236257/).
 - [Laura](https://www.linkedin.com/in/laura-magallanes-4025b6212/).
