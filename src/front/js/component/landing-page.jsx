@@ -30,6 +30,7 @@ export const LandingPage = () => {
   const navigate = useNavigate();
   const toggle = () => setModal(!modal);
   const [modal, setModal] = useState(false);
+  console.log("cambio para hacer commit");
 
   useEffect(() => {
     if (store.userId != null) {
