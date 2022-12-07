@@ -9,7 +9,10 @@ php_errorlog
 
 # do not ignore gitpod files
 !.gitpod.Dockerfile
+!Dockerfile.render
 !.gitpod.yml
+!render.yml
+!.render-buildpacks.json
 
 # track webpack configs (i.e. do NOT ignore it)
 !composer.json
