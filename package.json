@@ -14,8 +14,7 @@
         "name": "Alejandro Sanchez",
         "url": "http://alesanchezr.com/"
     },
-    "contributors": [
-        {
+    "contributors": [{
             "name": "Alejandro Sanchez",
             "url": "http://alesanchezr.com/"
         },
@@ -90,7 +89,6 @@
         "cors": "^2.8.5",
         "formik": "^2.2.9",
         "google-auth-library": "^8.7.0",
-        "heroku": "^7.66.4",
         "jwt-decode": "^3.1.2",
         "mdb-ui-kit": "^6.0.0",
         "paypal-express-checkout": "^1.6.3",
