@@ -4,7 +4,7 @@
 services:
   - type: web # valid values: https://render.com/docs/yaml-spec#type
     region: ohio
-    name: casaarte
+    name: casaartelaura
     env: python # valid values: https://render.com/docs/yaml-spec#environment
     buildCommand: "./render_build.sh"
     startCommand: "gunicorn wsgi --chdir ./src/"
@@ -21,6 +21,20 @@ services:
         fromDatabase:
           name: postgresql-trapezoidal-42170
           property: connectionString
+      - key: CLOUDINARY_API_KEY
+        value: 393275155599582
+      - key: CLOUDINARY_API_SECRET
+        value: 1pTPbZWVrO9v6peDeDWWiXV-kWU
+      - key: CLOUDINARY_CLOUD_NAME
+        value: dgqyqqtk4
+      - key: CONTACT_FORM
+        value: xoqbydwp
+      - key: FLASK_APP_KEY
+        value: any key works
+      - key: GOOGLE_AUTH
+        value: 1022630652160-8d1fruib29fg3j8u7jd61a1vgl5mld5m.apps.googleusercontent.com
+      - key: PAYPAL_SANDBOX_CLIENT_ID
+        value: ATjtdmidJIPsPJh1nqKE6UqzDxB3ohTPJKIOxZS-TMleWHrYt3CWrWvF_2NWhS-w7AOdNq0SRQoMJ706
 
 databases: # Render PostgreSQL database
   - name: postgresql-trapezoidal-42170
